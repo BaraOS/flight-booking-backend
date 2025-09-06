@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: flightBooking
+  mvc:
+    converters:
+      preferred-json-mapper: gson
