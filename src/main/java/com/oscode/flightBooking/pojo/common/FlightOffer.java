@@ -116,6 +116,8 @@ public class FlightOffer {
             public static class OperatingFlight {
                 @Size(min = 1, max = 2)
                 private String carrierCode;
+
+                private String carrierName;
             }
 
             @Data
