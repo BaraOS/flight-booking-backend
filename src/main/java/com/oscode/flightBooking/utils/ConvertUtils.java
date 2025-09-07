@@ -2,8 +2,6 @@ package com.oscode.flightBooking.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.oscode.flightBooking.pojo.response.FlightOfferSearch;
-import com.oscode.flightBooking.pojo.response.SeatMapDisplay;
 
 public class ConvertUtils {
 

@@ -5,11 +5,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 
-import java.time.LocalDateTime;
 import java.util.Map;
 
 import static java.time.LocalTime.now;
-import static java.util.Collections.emptyMap;
 import static org.apache.logging.log4j.util.Strings.EMPTY;
 
 public class ResponseUtils {

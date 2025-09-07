@@ -1,7 +1,6 @@
 package com.oscode.flightBooking.service.impl;
 
 import com.amadeus.Params;
-import com.amadeus.Response;
 import com.amadeus.exceptions.ResponseException;
 import com.amadeus.resources.*;
 import com.oscode.flightBooking.pojo.response.FlightOrder;

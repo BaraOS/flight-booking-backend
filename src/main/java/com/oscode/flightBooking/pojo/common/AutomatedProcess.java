@@ -1,7 +1,6 @@
 package com.oscode.flightBooking.pojo.common;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.oscode.flightBooking.pojo.request.FlightCreateOrderRequest;
 import lombok.Data;
 import lombok.Getter;
 
