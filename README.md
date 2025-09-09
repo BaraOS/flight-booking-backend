@@ -12,17 +12,20 @@ To make your first API call, you will need to [register](https://developers.amad
 - [Amadeus Java Api](https://github.com/amadeus4dev/amadeus-java)
 
 ## Build
-`./mvnw clean install`
-or
-`mvn clean install`
-
+```sh
+mvn clean install
+```
 ## Run
 **On Linux/MacOS**  
-`export AMADEUS_CLIENT_ID="Your Client ID"`  
-`export AMADEUS_CLIENT_SECRET="Your Secret ID"`  
-`./mvnw spring-boot:run` or `mvn spring-boot:run`  
+```sh
+export AMADEUS_CLIENT_ID="Your Client ID"
+export AMADEUS_CLIENT_SECRET="Your Secret ID"
+mvn spring-boot:run
+```
 
 **On Windows**  
-`set AMADEUS_CLIENT_ID="Your Client ID"`  
-`set AMADEUS_CLIENT_SECRET="Your Secret ID"`  
-`./mvnw spring-boot:run` or `mvn spring-boot:run`  
+```sh
+set AMADEUS_CLIENT_ID="Your Client ID"
+set AMADEUS_CLIENT_SECRET="Your Secret ID"
+mvn spring-boot:run
+```
